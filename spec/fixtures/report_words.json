@@ -1,0 +1,26 @@
+{
+    "response": {
+        "code": 200,
+        "status": "200 OK"
+    },
+    "report": {
+        "#lojasamericanas": {
+            "negative": 165,
+            "neutral": 154,
+            "positive": 220,
+            "total": 539
+        },
+        "@luansantana": {
+            "negative": 575,
+            "neutral": 8,
+            "positive": 3,
+            "total": 586
+        },
+        "agora": {
+            "negative": 392,
+            "neutral": 36,
+            "positive": 50,
+            "total": 478
+        }
+    }
+}

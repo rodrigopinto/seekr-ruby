@@ -1,0 +1,26 @@
+{
+  "response": {
+    "status": "200 OK",
+    "code": 200
+  },
+  "search": {
+    "id": 11111,
+    "name": "[Dashboard] Cards Institucionais",
+    "start_date": "01/11/2014",
+    "search_results": 10641,
+    "search_terms": [
+      {
+        "term": "Some Term",
+        "id": 1
+      },
+      {
+        "term": "some term",
+        "id": 2
+      }
+    ],
+    "tags": 10,
+    "medias": 4,
+    "active": false,
+    "sentiment_analysis": true
+  }
+}

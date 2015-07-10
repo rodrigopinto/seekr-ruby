@@ -1,0 +1,17 @@
+{
+    "response": {
+        "status": "200 OK",
+        "code": 200
+    },
+    "report": {
+        "Problemas/Engenharia/Ar Condicionado": {
+            "total": 12,
+            "positive": 2,
+            "neutral": 4,
+            "negative": 6,
+            "positive_perc": 16.4,
+            "neutral_perc": 33.3,
+            "negative_perc": 50.3
+        }
+    }
+}

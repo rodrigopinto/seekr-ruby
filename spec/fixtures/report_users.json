@@ -1,0 +1,26 @@
+{
+    "response": {
+        "code": 200,
+        "status": "200 OK"
+    },
+    "report": {
+        "john": {
+            "negative": 165,
+            "neutral": 154,
+            "positive": 220,
+            "total": 539
+        },
+        "jack": {
+            "negative": 575,
+            "neutral": 8,
+            "positive": 3,
+            "total": 586
+        },
+        "quentin": {
+            "negative": 392,
+            "neutral": 36,
+            "positive": 50,
+            "total": 478
+        }
+    }
+}

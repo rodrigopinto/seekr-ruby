@@ -1,0 +1,7 @@
+{
+  "response": {
+    "status": "403 Forbidden",
+    "message": "Authentication failure",
+    "code": 403
+  }
+}

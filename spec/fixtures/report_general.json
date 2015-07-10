@@ -1,0 +1,15 @@
+{
+  "response": {
+    "status": "200 OK",
+    "code": 200
+  },
+  "report": {
+    "total": 2483,
+    "positive": 847,
+    "neutral": 1156,
+    "negative": 480,
+    "positive_perc": 34.4,
+    "neutral_perc": 46.3,
+    "negative_perc": 19.3
+  }
+}

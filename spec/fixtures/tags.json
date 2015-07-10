@@ -1,0 +1,20 @@
+{
+  "response": {
+      "status": "200 OK",
+      "code": 200
+  },
+
+  "tags": [
+    {
+      "id": 1,
+      "name": "Awesome Tag",
+      "search_results": 53
+    },
+
+    {
+      "id": 2,
+      "name": "Another Tag",
+      "search_results": 37
+    }
+  ]
+}

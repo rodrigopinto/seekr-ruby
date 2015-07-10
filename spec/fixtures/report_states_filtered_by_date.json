@@ -1,0 +1,100 @@
+{
+    "response": {
+        "status": "200 OK",
+        "code": 200
+    },
+    "report": {
+        "states": {
+            "Amazonas": {
+                "total": 1,
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1,
+                "positive_perc": 0,
+                "neutral_perc": 0,
+                "negative_perc": 100,
+                "perc": 3.7
+            },
+            "São Paulo": {
+                "total": 4,
+                "positive": 1,
+                "neutral": 3,
+                "negative": 0,
+                "positive_perc": 25,
+                "neutral_perc": 75,
+                "negative_perc": 0,
+                "perc": 14.8
+            },
+            "Paraná": {
+                "total": 2,
+                "positive": 0,
+                "neutral": 2,
+                "negative": 0,
+                "positive_perc": 0,
+                "neutral_perc": 100,
+                "negative_perc": 0,
+                "perc": 7.4
+            },
+            "Espírito Santo": {
+                "total": 1,
+                "positive": 0,
+                "neutral": 1,
+                "negative": 0,
+                "positive_perc": 0,
+                "neutral_perc": 100,
+                "negative_perc": 0,
+                "perc": 3.7
+            },
+            "Pará": {
+                "total": 1,
+                "positive": 0,
+                "neutral": 1,
+                "negative": 0,
+                "positive_perc": 0,
+                "neutral_perc": 100,
+                "negative_perc": 0,
+                "perc": 3.7
+            },
+            "Ceará": {
+                "total": 2,
+                "positive": 2,
+                "neutral": 0,
+                "negative": 0,
+                "positive_perc": 200,
+                "neutral_perc": 0,
+                "negative_perc": 0,
+                "perc": 7.4
+            },
+            "Rio de Janeiro": {
+                "total": 14,
+                "positive": 2,
+                "neutral": 6,
+                "negative": 6,
+                "positive_perc": 14.7,
+                "neutral_perc": 42.7,
+                "negative_perc": 42.6,
+                "perc": 51.9
+            },
+            "Rio Grande do Sul": {
+                "total": 1,
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1,
+                "positive_perc": 0,
+                "neutral_perc": 0,
+                "negative_perc": 100,
+                "perc": 3.7
+            },
+            "Pernambuco": {
+                "total": 1,
+                "positive": 0,
+                "neutral": 1,
+                "negative": 0,
+                "positive_perc": 0,
+                "neutral_perc": 100,
+                "negative_perc": 0,
+                "perc": 3.7
+            }
+        }
+    }
+}

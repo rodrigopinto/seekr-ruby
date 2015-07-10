@@ -1,0 +1,35 @@
+{
+    "response": {
+        "status": "200 OK",
+        "code": 200
+    },
+    "report": {
+        "Problemas/Engenharia/Ar Condicionado": {
+            "total": 12,
+            "positive": 2,
+            "neutral": 4,
+            "negative": 6,
+            "positive_perc": 16.4,
+            "neutral_perc": 33.3,
+            "negative_perc": 50.3
+        },
+        "Problemas/Engenharia/Prateleira": {
+            "total": 1,
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0,
+            "positive_perc": 0,
+            "neutral_perc": 100,
+            "negative_perc": 0
+        },
+        "Problemas/Engenharia/Acesso": {
+            "total": 10,
+            "positive": 3,
+            "neutral": 1,
+            "negative": 6,
+            "positive_perc": 30,
+            "neutral_perc": 10,
+            "negative_perc": 60
+        }
+    }
+}

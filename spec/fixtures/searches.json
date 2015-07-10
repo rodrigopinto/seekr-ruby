@@ -1,0 +1,28 @@
+{
+  "response": {
+    "status": "200 OK",
+    "code": 200
+  },
+  "searches": [
+    {
+      "id": 1,
+      "name": "Monitor one",
+      "search_results": 1243,
+      "search_terms": 2,
+      "tags": 7,
+      "medias": 3,
+      "active": true,
+      "sentiment_analysis": false
+    },
+    {
+      "id": 2,
+      "name": "Monitor 2",
+      "search_results": 546,
+      "search_terms": 5,
+      "tags": 2,
+      "medias": 0,
+      "active": false,
+      "sentiment_analysis": false
+    }
+  ]
+}

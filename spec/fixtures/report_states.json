@@ -1,0 +1,320 @@
+{
+    "response": {
+        "status": "200 OK",
+        "code": 200
+    },
+    "report": {
+        "states": {
+            "State of Rio de Janeiro": {
+                "total": 2,
+                "positive": 0,
+                "neutral": 1,
+                "negative": 1,
+                "positive_perc": 0,
+                "neutral_perc": 50,
+                "negative_perc": 50,
+                "perc": 0
+            },
+            "Paraíba": {
+                "total": 117,
+                "positive": 11,
+                "neutral": 49,
+                "negative": 57,
+                "positive_perc": 10.7,
+                "neutral_perc": 84.2,
+                "negative_perc": 105.1,
+                "perc": 1.3
+            },
+            "Rio de Janeiro": {
+                "total": 3175,
+                "positive": 629,
+                "neutral": 1707,
+                "negative": 839,
+                "positive_perc": 19.7,
+                "neutral_perc": 53.7,
+                "negative_perc": 26.6,
+                "perc": 36.5
+            },
+            "State of São Paulo": {
+                "total": 1,
+                "positive": 1,
+                "neutral": 0,
+                "negative": 0,
+                "positive_perc": 100,
+                "neutral_perc": 0,
+                "negative_perc": 0,
+                "perc": 0
+            },
+            "Alagoas": {
+                "total": 63,
+                "positive": 10,
+                "neutral": 30,
+                "negative": 23,
+                "positive_perc": 15.7,
+                "neutral_perc": 47.7,
+                "negative_perc": 36.6,
+                "perc": 0.7
+            },
+            "Amapá": {
+                "total": 37,
+                "positive": 8,
+                "neutral": 20,
+                "negative": 9,
+                "positive_perc": 25.7,
+                "neutral_perc": 118.2,
+                "negative_perc": 56.1,
+                "perc": 0.4
+            },
+            "Espírito Santo": {
+                "total": 185,
+                "positive": 44,
+                "neutral": 85,
+                "negative": 56,
+                "positive_perc": 50.4,
+                "neutral_perc": 93.4,
+                "negative_perc": 56.2,
+                "perc": 2.1
+            },
+            "Ceará": {
+                "total": 168,
+                "positive": 40,
+                "neutral": 88,
+                "negative": 40,
+                "positive_perc": 43.8,
+                "neutral_perc": 103.6,
+                "negative_perc": 52.599999999999994,
+                "perc": 1.9
+            },
+            "Mato Grosso do Sul": {
+                "total": 39,
+                "positive": 8,
+                "neutral": 18,
+                "negative": 13,
+                "positive_perc": 20.4,
+                "neutral_perc": 46.3,
+                "negative_perc": 33.3,
+                "perc": 0.4
+            },
+            "Paraná": {
+                "total": 340,
+                "positive": 74,
+                "neutral": 172,
+                "negative": 94,
+                "positive_perc": 44.099999999999994,
+                "neutral_perc": 102,
+                "negative_perc": 53.900000000000006,
+                "perc": 3.9
+            },
+            "Acre": {
+                "total": 12,
+                "positive": 1,
+                "neutral": 7,
+                "negative": 4,
+                "positive_perc": 8.4,
+                "neutral_perc": 58.3,
+                "negative_perc": 33.3,
+                "perc": 0.1
+            },
+            "Bahia": {
+                "total": 312,
+                "positive": 57,
+                "neutral": 125,
+                "negative": 130,
+                "positive_perc": 18.4,
+                "neutral_perc": 40.3,
+                "negative_perc": 41.3,
+                "perc": 3.6
+            },
+            "São Paulo": {
+                "total": 1632,
+                "positive": 371,
+                "neutral": 869,
+                "negative": 392,
+                "positive_perc": 22.4,
+                "neutral_perc": 53.3,
+                "negative_perc": 24.3,
+                "perc": 18.8
+            },
+            "Rondônia": {
+                "total": 24,
+                "positive": 5,
+                "neutral": 13,
+                "negative": 6,
+                "positive_perc": 20.4,
+                "neutral_perc": 54.3,
+                "negative_perc": 25.3,
+                "perc": 0.3
+            },
+            "Goiás": {
+                "total": 110,
+                "positive": 26,
+                "neutral": 63,
+                "negative": 21,
+                "positive_perc": 43.099999999999994,
+                "neutral_perc": 124,
+                "negative_perc": 32.9,
+                "perc": 1.3
+            },
+            "Pernambuco": {
+                "total": 310,
+                "positive": 59,
+                "neutral": 144,
+                "negative": 107,
+                "positive_perc": 19.4,
+                "neutral_perc": 46.3,
+                "negative_perc": 34.3,
+                "perc": 3.6
+            },
+            "Maranhão": {
+                "total": 94,
+                "positive": 16,
+                "neutral": 46,
+                "negative": 32,
+                "positive_perc": 35.099999999999994,
+                "neutral_perc": 103,
+                "negative_perc": 61.900000000000006,
+                "perc": 1.1
+            },
+            "Amazonas": {
+                "total": 139,
+                "positive": 29,
+                "neutral": 76,
+                "negative": 34,
+                "positive_perc": 20.7,
+                "neutral_perc": 54.7,
+                "negative_perc": 24.6,
+                "perc": 1.6
+            },
+            "Distrito Federal": {
+                "total": 198,
+                "positive": 38,
+                "neutral": 113,
+                "negative": 47,
+                "positive_perc": 19.7,
+                "neutral_perc": 91.2,
+                "negative_perc": 89.1,
+                "perc": 2.3
+            },
+            "Piauí": {
+                "total": 53,
+                "positive": 10,
+                "neutral": 27,
+                "negative": 16,
+                "positive_perc": 37.1,
+                "neutral_perc": 102,
+                "negative_perc": 60.900000000000006,
+                "perc": 0.6
+            },
+            "Rio Grande do Sul": {
+                "total": 379,
+                "positive": 73,
+                "neutral": 214,
+                "negative": 92,
+                "positive_perc": 19.4,
+                "neutral_perc": 56.3,
+                "negative_perc": 24.3,
+                "perc": 4.4
+            },
+            "Roraima": {
+                "total": 22,
+                "positive": 3,
+                "neutral": 14,
+                "negative": 5,
+                "positive_perc": 13.7,
+                "neutral_perc": 63.7,
+                "negative_perc": 22.6,
+                "perc": 0.3
+            },
+            "Pará": {
+                "total": 218,
+                "positive": 46,
+                "neutral": 116,
+                "negative": 56,
+                "positive_perc": 32.8,
+                "neutral_perc": 87.6,
+                "negative_perc": 79.6,
+                "perc": 2.5
+            },
+            "Rio Grande do Norte": {
+                "total": 72,
+                "positive": 17,
+                "neutral": 42,
+                "negative": 13,
+                "positive_perc": 23.4,
+                "neutral_perc": 58.3,
+                "negative_perc": 18.3,
+                "perc": 0.8
+            },
+            "Mato Grosso": {
+                "total": 36,
+                "positive": 9,
+                "neutral": 14,
+                "negative": 13,
+                "positive_perc": 25.4,
+                "neutral_perc": 38.3,
+                "negative_perc": 36.3,
+                "perc": 0.4
+            },
+            "State of Goias": {
+                "total": 3,
+                "positive": 1,
+                "neutral": 1,
+                "negative": 1,
+                "positive_perc": 33.4,
+                "neutral_perc": 33.3,
+                "negative_perc": 33.3,
+                "perc": 0
+            },
+            "Sergipe": {
+                "total": 39,
+                "positive": 3,
+                "neutral": 25,
+                "negative": 11,
+                "positive_perc": 7.4,
+                "neutral_perc": 64.3,
+                "negative_perc": 28.3,
+                "perc": 0.4
+            },
+            "MG": {
+                "total": 2,
+                "positive": 1,
+                "neutral": 1,
+                "negative": 0,
+                "positive_perc": 50,
+                "neutral_perc": 50,
+                "negative_perc": 0,
+                "perc": 0
+            },
+            "Tocantins": {
+                "total": 30,
+                "positive": 3,
+                "neutral": 22,
+                "negative": 5,
+                "positive_perc": 10.4,
+                "neutral_perc": 73.3,
+                "negative_perc": 16.3,
+                "perc": 0.3
+            },
+            "Minas Gerais": {
+                "total": 681,
+                "positive": 132,
+                "neutral": 359,
+                "negative": 190,
+                "positive_perc": 19.7,
+                "neutral_perc": 52.7,
+                "negative_perc": 27.6,
+                "perc": 7.8
+            },
+            "Santa Catarina": {
+                "total": 209,
+                "positive": 48,
+                "neutral": 113,
+                "negative": 48,
+                "positive_perc": 22.7,
+                "neutral_perc": 54.7,
+                "negative_perc": 22.6,
+                "perc": 2.4
+            }
+        }
+    }
+}

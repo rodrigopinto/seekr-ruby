@@ -1,0 +1,20 @@
+{
+    "response": {
+        "code": 200,
+        "status": "200 OK"
+    },
+    "report": {
+        "john": {
+            "negative": 59,
+            "neutral": 60,
+            "positive": 120,
+            "total": 239
+        },
+        "quentin": {
+            "negative": 36,
+            "neutral": 6,
+            "positive": 50,
+            "total": 92
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+  "response": {
+    "status": "200 OK",
+    "code": 200
+  },
+  "report": {
+    "cities": {
+      "Santos": {
+        "total": 1,
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_perc": 0.0,
+        "neutral_perc": 0.0,
+        "negative_perc": 100.0,
+        "perc": 4
+      },
+      "Porto Alegre": {
+        "total": 1,
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_perc": 100.0,
+        "neutral_perc": 0.0,
+        "negative_perc": 0.0,
+        "perc": 4
+      },
+      "Cabo Frio": {
+        "total": 1,
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_perc": 100.0,
+        "neutral_perc": 0.0,
+        "negative_perc": 0.0,
+        "perc": 4
+      },
+      "Rio de Janeiro": {
+        "total": 6,
+        "positive": 0,
+        "neutral": 5,
+        "negative": 1,
+        "positive_perc": 0.0,
+        "neutral_perc": 83.5,
+        "negative_perc": 16.5,
+        "perc": 22
+      },
+      "Brasilia": {
+        "total": 1,
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_perc": 0.0,
+        "neutral_perc": 100.0,
+        "negative_perc": 0.0,
+        "perc": 4
+      }
+    }
+  }
+}
