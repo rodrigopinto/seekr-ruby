@@ -2,12 +2,12 @@ require 'spec_helper'
 
 RSpec.describe 'Occurrence' do
   let(:monitor_id) { 12345 }
-  let!(:occurrence) { Seekr::Occurrence.new }
+  let!(:occurrence) { Seekr::Occurrence.new(monitor_id) }
 
-  describe '#find_for' do
+  describe '#all_paginated' do
 
     it_behaves_like "API authentication required" do
-      let(:request) { occurrence.find_for(monitor_id) }
+      let(:request) { occurrence.all_paginated }
     end
 
     context 'when API is authenticated' do
@@ -23,7 +23,7 @@ RSpec.describe 'Occurrence' do
       end
 
       context 'without any filter' do
-        let!(:response) { JSON.parse(occurrence.find_for(monitor_id)) }
+        let!(:response) { JSON.parse(occurrence.all_paginated) }
 
         it { expect(response['search_results'].size).to eq 2 }
         it { expect(response['search_results'][0]['id']).to eq 9999 }
@@ -31,7 +31,7 @@ RSpec.describe 'Occurrence' do
       end
 
       context 'with filter by tag' do
-        let!(:response) { JSON.parse(occurrence.find_for(monitor_id, tag: [1])) }
+        let!(:response) { JSON.parse(occurrence.all_paginated(tag: [1])) }
 
         it { expect(response['search_results'].size).to eq 2 }
         it { expect(response['search_results'][0]['id']).to eq 9999 }
