@@ -1,0 +1,62 @@
+{
+  "response": {
+    "status": "200 OK",
+    "code": 200
+  },
+  "search_results": [
+    {
+      "id": 9999,
+      "title": "",
+      "text": "Some String goes here",
+      "url": "http://example.com/user/statuses/9999999999",
+      "media_id": 2412312312,
+      "published_on": "2014-11-07T18:40:54.000-02:00",
+      "user": "user",
+      "user_id": null,
+      "user_image": "https://cdn.exampl.com/profile_images/9999999999/image.png",
+      "attached_image_url": null,
+      "social_media": "twitter",
+      "search_term": "\"term\"",
+      "polarization": 0,
+      "reach": 15794,
+      "favorite": false,
+      "latitude": null,
+      "longitude": null,
+      "country": null,
+      "country_short": null,
+      "state": null,
+      "state_short": null,
+      "city": null,
+      "gender": null
+    },
+    {
+      "id": 9999,
+      "title": "",
+      "text": "Some String goes here",
+      "url": "http://example.com/user/statuses/9999999999",
+      "media_id": 2412312312,
+      "published_on": "2014-11-07T18:40:54.000-02:00",
+      "user": "user",
+      "user_id": null,
+      "user_image": "https://cdn.exampl.com/profile_images/9999999999/image.png",
+      "attached_image_url": null,
+      "social_media": "twitter",
+      "search_term": "\"term\"",
+      "polarization": 0,
+      "reach": 15794,
+      "favorite": false,
+      "latitude": null,
+      "longitude": null,
+      "country": null,
+      "country_short": null,
+      "state": null,
+      "state_short": null,
+      "city": null,
+      "gender": null
+    }
+  ],
+  "tags": 1,
+  "medias": 4,
+  "active": true,
+  "sentiment_analysis": true
+}

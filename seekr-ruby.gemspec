@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec",    "3.1.0"
   spec.add_development_dependency "webmock",  "1.20.3"
   spec.add_development_dependency "sinatra",  "1.4.5"
-  spec.add_development_dependency "pry",      "0.10.1"
+  spec.add_development_dependency "pry",      "0.10.3"
 end

@@ -3,12 +3,13 @@ require 'sinatra/base'
 class FakeSeekrMonitor < Sinatra::Base
 
   get '/api/search_results.json' do
-    content = if params[:tag].present? && params[:tag] == [1]
+    content = if params[:tag].present? && params[:tag] == ["1"] && params[:page] == "1"
       'occurrences_filter_by_tag.json'
-    else
-      'occurrences.json'
+    elsif params[:page] == "1"
+    'occurrences_first_page.json'
+    elsif params[:page] == "2"
+      'occurrences_last_page.json'
     end
-
     json_response 200, content
   end
 

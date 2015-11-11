@@ -25,15 +25,13 @@ RSpec.describe 'Occurrence' do
       context 'without any filter' do
         let!(:response) { JSON.parse(occurrence.all_paginated) }
 
-        it { expect(response['search_results'].size).to eq 2 }
-        it { expect(response['search_results'][0]['id']).to eq 9999 }
-        it { expect(response['search_results'][0]['url']).to eq "http://example.com/user/statuses/9999999999" }
+        it { expect(response['search_results'].size).to eq 102 }
       end
 
       context 'with filter by tag' do
         let!(:response) { JSON.parse(occurrence.all_paginated(tag: [1])) }
 
-        it { expect(response['search_results'].size).to eq 2 }
+        it { expect(response['search_results'].size).to eq 1 }
         it { expect(response['search_results'][0]['id']).to eq 9999 }
         it { expect(response['search_results'][0]['url']).to eq "http://example.com/user/statuses/9999999999" }
       end
