@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'pry'
 
 RSpec.describe 'Monitor' do
   let!(:monitor) { Seekr::Monitor.new }
