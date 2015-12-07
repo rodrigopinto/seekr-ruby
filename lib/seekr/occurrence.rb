@@ -8,6 +8,10 @@ module Seekr
       @monitor_id = monitor_id
     end
 
+    def all(options={})
+      get("/search_results", params.merge(options))
+    end
+
     def all_paginated(options={})
       options[:page] = 1
       response = get_search_results_json(options)
@@ -23,9 +27,11 @@ module Seekr
     end
 
     private
+    attr_reader :monitor_id
+
     def params
       {
-        search_id: @monitor_id,
+        search_id: monitor_id,
         per_page: PER_PAGE
       }
     end
